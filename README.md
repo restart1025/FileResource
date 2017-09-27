@@ -1,5 +1,12 @@
 # FileResource
-书籍资料
+
+window.onload = function () {  
+        if (window.parent.window != window) {  
+            window.top.location = "/login-main.action";  
+        }  
+    }
+
+### 书籍资料
 
 ```
 
